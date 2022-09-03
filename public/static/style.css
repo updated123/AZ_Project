@@ -1,0 +1,161 @@
+body{
+    background: linear-gradient(#F5E8C7, #DEB6AB);
+    font-family: tahoma;
+    color: #971845;
+}
+
+.searchbar{
+    display: flex;
+    margin: 6px 11px;
+    padding: 2px 2px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input[type="text"]{
+    width: 66%;
+    padding: 20px;
+    background:#D3EBCD;
+    border: 0;
+    float: left;
+    font-size: 20px;
+    color: #3C2C3E;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img{
+    height: 100px;
+    width: 100px;
+}
+
+.header h1{
+    padding: 10px;
+}
+
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+
+h1{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+h2{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    margin-left: 59px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 30px 138px;
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading{
+    font-size: 2rem;
+}
+
+.url a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.url a:link{
+    color: #3AB0FF;
+}
+
+.url a:hover{
+    color: #3b4553;
+}
+
+.formtable{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 10px;
+    margin-left: 10px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  /* form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  } */
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 30%;
+    height: 63px;
+    padding: 20px;
+    background: #23282e;
+    color: white;
+    font-size: 18px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    border: none;
+    cursor: pointer;
+  }
+
+  form.example button:hover {
+    background: #202831;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+@media only screen and (max-width: 410px){
+    .container{
+        padding: 30px 15px;
+    }
+
+    .question{
+        padding: 2px 2px;
+        margin: 2px 20px;
+    }
+}
